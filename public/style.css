@@ -175,3 +175,31 @@ body {
     font-size: 20px;
     padding: 10px;
 }
+
+.timer-bar {
+  width: 100%;
+  background: #ddd;
+  height: 6px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.timer-bar .fill {
+  background: #e61212;
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes shrink {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+.scoreboard {
+  display: none;
+}
